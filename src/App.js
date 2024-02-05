@@ -1,6 +1,6 @@
 import './App.css';
 import Nav from 'react-bootstrap/Nav';
-
+import HomeContainer from './components/home-container/home-container';
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,7 @@ function App() {
           <Nav.Link className='menu-item' eventKey="link-2">Portfolio</Nav.Link>
         </Nav.Item>
       </Nav>
+      <HomeContainer/>
     </div>
   );
 }
