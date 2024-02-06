@@ -1,6 +1,18 @@
 .about-title {
-    color: white;
+    background: -webkit-linear-gradient(rgb(21, 220, 255), rgb(14, 54, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.about-subtitle {
+    background: -webkit-linear-gradient(rgb(21, 220, 255), rgb(14, 54, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 32px;
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word
@@ -11,6 +23,5 @@
     color: white;
     font-size: 24px;
     font-family: Inter;
-    font-weight: 700;
     word-wrap: break-word
 }

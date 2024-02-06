@@ -1,7 +1,23 @@
 .card-title {
-    color: white;
+    background: -webkit-linear-gradient(rgb(21, 220, 255), rgb(14, 54, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card-content {
     color: white;
+    text-align: justify;
+}
+
+.card-div {
+    box-shadow: 0px 4px 4px rgb(31, 253, 231);
+    border: 10px solid;
+    border-image-slice: 1;
+    height: 100%;
+    border-width: 5px;
+    border-image-source: linear-gradient(180deg, #5158F7 0%, #3CB1F3 100%);
+}
+
+.card-icon {
+    align-self: center;
 }

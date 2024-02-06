@@ -8,27 +8,27 @@ function CardService(props) {
     const getIcon = (icon) => {
         switch (icon) {
             case "server":
-                return <FaServer color='white' size={40} />
+                return <FaServer  size={40} color='#3CB1F3' />
             case "devops":
-                return <FaDocker color='white' size={40} />
+                return <FaDocker  size={40} color='#3CB1F3' />
             case "ai":
-                return <LuBrainCircuit color='white' size={40} />
+                return <LuBrainCircuit size={40} color='#3CB1F3' />
             case "data":
-                return <MdAnalytics color='white' size={40} />
+                return <MdAnalytics size={40} color='#3CB1F3' />
             default:
-                return <FaServer color='white' size={40} />
+                return <FaServer size={40} color='#3CB1F3' />
         }
     }
     const icon = getIcon(props.icon)
     return (
-        <div style={{ boxShadow: '0px 4px 4px rgba(234.11, 8.15, 8.15, 0.25)', border: '5px #5158F7 solid' , height:"100%" }}>
+        <div className='card-div'>
             <Card style={{ backgroundColor: "transparent" }}>
                 <Card.Body >
-                    <Card.Title className='card-title'>
+                    <Card.Title>
                         <Container style={{ textAlign: "start", padding: "20px" }}>
                             <Row>
-                                <Col lg="2">{icon}</Col>
-                                <Col style={{ color: "white", textAlign: "start" }}>{props.title}</Col>
+                                <Col lg="2" style={{alignSelf:"center"}}>{icon}</Col>
+                                <Col ><h1 className='card-title'>{props.title}</h1></Col>
                             </Row>
                         </Container>
                     </Card.Title>

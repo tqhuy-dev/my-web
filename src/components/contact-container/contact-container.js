@@ -13,7 +13,6 @@ function ContactContainer(){
         <Container>
             <Row>
                 <Col style={{ textAlign: "start" }}>
-                    <div style={{ color: 'white', fontSize: 28, fontWeight: 'bold',marginBottom:20 }}>Drop Me a Message</div>
                     <div style={{marginBottom:20}}>
                         <span style={{padding:10,backgroundColor:"#02D7E5",borderRadius:10,marginRight:20}}>
                             <FaPhoneAlt color='white' fontSize={20} />
