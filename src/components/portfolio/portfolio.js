@@ -49,7 +49,7 @@ function Portfolio() {
                             <div className='portfolio-category' onClick={() => updateCategory(2)}>Devops</div>
                         </Col>
                         <Col>
-                            <div className='portfolio-category' onClick={() => updateCategory(3)}>Data Science</div>
+                            <div className='portfolio-category' onClick={() => updateCategory()}>Data Science</div>
                         </Col>
                         <Col lg="1"></Col>
                     </Row>
@@ -58,6 +58,9 @@ function Portfolio() {
             <Container style={{ marginTop: "100px" }}>
                 {listPortfolioCards}
             </Container>
+            <div className='portfolio-view-all'>
+                <div className='portfolio-button-view-all'>View All</div>
+            </div>
         </div>
     )
 }

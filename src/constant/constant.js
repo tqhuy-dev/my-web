@@ -26,7 +26,28 @@ const Constant = {
             new PortfolioEntity("Demo DataScience App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
             new PortfolioEntity("Demo DataScience App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
         ]
-    }
+    },
+    Services: {
+        WebServer:{
+            Title: "Backend Server",
+            Description:"Description"
+        },
+        AI:{
+            Title: "Artificial Intelligence",
+            Description:"Description"
+        },
+        Devops:{
+            Title: "Devops",
+            Description:"Description"
+        },
+        Data:{
+            Title: "Data Science",
+            Description:"Description"
+        }
+    },
+    Phone:"0946515847",
+    Location:"Phu Nhuan, Ho Chi Minh City, VietName",
+    Email:"tqhuy1996.developer@gmail.com"
 };
 
 export default Constant;

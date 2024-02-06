@@ -21,3 +21,20 @@
 .portfolio-category:hover{
     color: #02D7E5;
 }
+
+.portfolio-view-all {
+    text-align: center;
+}
+
+.portfolio-button-view-all {
+    display: inline;
+    background: linear-gradient(180deg, #5158F7 0%, #3CB1F3 100%);
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+}

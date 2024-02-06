@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaFacebookSquare ,FaLinkedin,FaGithubSquare} from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import Constant from '../../constant/constant';
 function ContactContainer(){
     return (
         <div style={{ background: "linear-gradient(180deg, #5158F7 0%, #3CB1F3 100%)", textAlign: "center",paddingTop:100,paddingBottom:50 }} >
@@ -17,19 +18,19 @@ function ContactContainer(){
                         <span style={{padding:10,backgroundColor:"#02D7E5",borderRadius:10,marginRight:20}}>
                             <FaPhoneAlt color='white' fontSize={20} />
                         </span>
-                        <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>0946515847</span>
+                        <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>{Constant.Phone}</span>
                     </div>
                     <div style={{marginBottom:20}}>
                         <span style={{padding:10,backgroundColor:"#02D7E5",borderRadius:10,marginRight:20}}>
                             <FaLocationDot color='white' fontSize={20} />
                         </span>
-                        <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>Phu Nhuan,Ho Chi Minh City, Vietnam</span>
+                        <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>{Constant.Location}</span>
                     </div>
                     <div style={{marginBottom:20}}>
                         <span style={{padding:10,backgroundColor:"#02D7E5",borderRadius:10,marginRight:20}}>
                             <MdEmail color='white' fontSize={20} />
                         </span>
-                        <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>tqhuy1996.developer@gmail.com</span>
+                        <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>{Constant.Email}</span>
                     </div>
                 </Col>
                 <Col></Col>
