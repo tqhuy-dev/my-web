@@ -7,3 +7,17 @@
     word-wrap: break-word;
     margin-bottom: 20px
 }
+
+.portfolio-category {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: 'break-word';
+    cursor: pointer;
+}
+
+.portfolio-category:hover{
+    color: #02D7E5;
+}
