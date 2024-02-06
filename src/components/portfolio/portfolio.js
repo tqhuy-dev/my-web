@@ -37,7 +37,7 @@ function Portfolio() {
     return (
         <div className='big-image-portfolio'>
             <div className='overlay-portfolio'>
-                <Container style={{ marginTop: "150px", textAlign: "center" }}>
+                <Container style={{textAlign: "center" }}>
                     <div className='portfolio-title'>Portfolio</div>
                     <Container>
                         <Row>

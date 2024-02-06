@@ -37,7 +37,7 @@
 
 
 .big-image-portfolio {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     position: relative;
     background-size: cover;
@@ -51,7 +51,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.45);
     color: white;
     display: flex;
     align-items: center;

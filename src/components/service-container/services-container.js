@@ -8,7 +8,7 @@ function ServiceContainer() {
     return (
         <div className='big-image-service'>
             <div className='overlay-service'>
-                <Container style={{ marginTop: "100px", textAlign: "center", marginBottom: "100px" }}>
+                <Container style={{ textAlign: "center", marginBottom: "100px" }}>
                     <div style={{ textAlign: 'center', color: 'white', fontSize: 48, fontFamily: 'Inter', fontWeight: '700', wordWrap: 'break-word', marginBottom: 20 }}>Services</div>
                     <Container>
                         <Row style={{ marginBottom: 20 }}>
