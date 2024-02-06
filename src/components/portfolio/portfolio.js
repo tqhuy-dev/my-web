@@ -8,7 +8,7 @@ import React from 'react';
 function Portfolio() {
 
     let [listPortfolioCards, setStateList] = React.useState(Constants.Portfolio.WebApp.map((e, index) => {
-        return <CardPortfolio title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
+        return <CardPortfolio image={e.image} title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
     }));
     const updateCategory = (index) => {
         let listCate = Constants.Portfolio.WebApp
@@ -29,7 +29,7 @@ function Portfolio() {
                 listCate = Constants.Portfolio.WebApp;
         }
         setStateList(listCate.map((e, index) => {
-            return <CardPortfolio title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
+            return <CardPortfolio image={e.image} title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
         }))
     }
     return (
@@ -49,7 +49,7 @@ function Portfolio() {
                             <div className='portfolio-category' onClick={() => updateCategory(2)}>Devops</div>
                         </Col>
                         <Col>
-                            <div className='portfolio-category' onClick={() => updateCategory()}>Data Science</div>
+                            <div className='portfolio-category' onClick={() => updateCategory(3)}>Data Science</div>
                         </Col>
                         <Col lg="1"></Col>
                     </Row>

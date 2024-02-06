@@ -1,7 +1,8 @@
 export class PortfolioEntity {
-    constructor(title, description) {
+    constructor(title, description,image) {
         this.title = title
         this.description = description
+        this.image = image
     }
 }
 
@@ -16,20 +17,19 @@ const Constant = {
     ImageUrl: "/image_me.png",
     Portfolio: {
         WebApp: [
-            new PortfolioEntity("Demo Web App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
-            new PortfolioEntity("Demo Web App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
+            new PortfolioEntity("Order Management System", "Design and develop Order Management System at Sendo Company using Golang. Use ElasticSearch for order search feature and Message-Queue, Pub/Sub model for order synchronization","/order_mgt.png"),
+            new PortfolioEntity("Order Statistics System", "Design and develop Order Statistics System at Sendo Company using Golang and Python. Apply Airflow and PySpark for data collection, analysis, and data modeling. Use Postgre Timescaled DB to store real-time data and retrieve analytics data by timeline","order_statistics.png"),
         ],
         AI: [
-            new PortfolioEntity("Demo AI App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
-            new PortfolioEntity("Demo AI App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
+            new PortfolioEntity("Food Ingredients Detection", "Train the AI model to detect food ingredients using YOLO v8, build a dish recommendation system from recognized ingredients. Data is marked and stored on Roboflow","/detection.jpg"),
+            new PortfolioEntity("Smart House Demo", "Train AI models to analyze voice, analyze gestures, and predict to automate features in the home, manage and suggest to family members.","/smarthouse.webp"),
         ],
         Devops: [
-            new PortfolioEntity("Demo Devops App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
-            new PortfolioEntity("Demo Devops App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
+            new PortfolioEntity("Deploy microservices system with Kubernetes", "Deploy Microservices system to Kubernetes, using tools such as Docker, Jenkins, Circle-ci, Terraform","/k8s_micro.png"),
+            new PortfolioEntity("Design and deploy CI/CD Pipelines on Cloud", "Deploy and integrate CI/CD applications into Google and AWS services.","/cicd.png"),
         ],
         DataScience: [
-            new PortfolioEntity("Demo DataScience App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
-            new PortfolioEntity("Demo DataScience App", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsus of Lorem Ipsum"),
+            new PortfolioEntity("Recommendation System", "Collect and model data, use algorithms and techniques such as Cosine Similarity, User-based/Item-based Collaborative to build a recommendation system","/recommendation.png"),
         ]
     },
     Services: {
