@@ -10,7 +10,7 @@ function Portfolio() {
     let [listPortfolioCards, setStateList] = React.useState(Constants.Portfolio.WebApp.map((e, index) => {
         return <CardPortfolio key={index} image={e.image} title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
     }));
-    let [tabSelected,setTab] = React.useState(0);
+    let [tabSelected, setTab] = React.useState(0);
     const updateCategory = (index) => {
         let listCate = Constants.Portfolio.WebApp
         switch (index) {
@@ -35,34 +35,37 @@ function Portfolio() {
         setTab(index);
     }
     return (
-        <div>
-            <Container style={{ marginTop: "150px", textAlign: "center" }}>
-                <div className='portfolio-title'>Portfolio</div>
-                <Container>
-                    <Row>
-                        <Col lg="1"></Col>
-                        <Col>
-                            <div className='portfolio-category' style={tabSelected === 0 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(0)}>Web App</div>
-                        </Col>
-                        <Col>
-                            <div className='portfolio-category' style={tabSelected === 1 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(1)}>AI</div>
-                        </Col>
-                        <Col>
-                            <div className='portfolio-category' style={tabSelected === 2 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(2)}>Devops</div>
-                        </Col>
-                        <Col>
-                            <div className='portfolio-category' style={tabSelected === 3 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(3)}>Data Science</div>
-                        </Col>
-                        <Col lg="1"></Col>
-                    </Row>
+        <div className='big-image-portfolio'>
+            <div className='overlay-portfolio'>
+                <Container style={{ marginTop: "150px", textAlign: "center" }}>
+                    <div className='portfolio-title'>Portfolio</div>
+                    <Container>
+                        <Row>
+                            <Col lg="1"></Col>
+                            <Col>
+                                <div className='portfolio-category' style={tabSelected === 0 ? { color: "#02D7E5" } : {}} onClick={() => updateCategory(0)}>Web App</div>
+                            </Col>
+                            <Col>
+                                <div className='portfolio-category' style={tabSelected === 1 ? { color: "#02D7E5" } : {}} onClick={() => updateCategory(1)}>AI</div>
+                            </Col>
+                            <Col>
+                                <div className='portfolio-category' style={tabSelected === 2 ? { color: "#02D7E5" } : {}} onClick={() => updateCategory(2)}>Devops</div>
+                            </Col>
+                            <Col>
+                                <div className='portfolio-category' style={tabSelected === 3 ? { color: "#02D7E5" } : {}} onClick={() => updateCategory(3)}>Data Science</div>
+                            </Col>
+                            <Col lg="1"></Col>
+                        </Row>
+                    </Container>
                 </Container>
-            </Container>
-            <Container style={{ marginTop: "100px" }}>
-                {listPortfolioCards}
-            </Container>
-            <div className='portfolio-view-all'>
-                <div className='portfolio-button-view-all'>View All</div>
+                <Container style={{ marginTop: "100px" }}>
+                    {listPortfolioCards}
+                </Container>
+                <div className='portfolio-view-all'>
+                    <div className='portfolio-button-view-all'>View All</div>
+                </div>
             </div>
+
         </div>
     )
 }

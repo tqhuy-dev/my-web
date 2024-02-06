@@ -6,24 +6,28 @@ import Constant from '../../constant/constant'
 import './about-me.css'
 function AboutMe() {
     return (
-        <Container style={{ marginTop: "200px" }}>
-            <Row>
-                <Col lg="1"></Col>
-                <Col lg="4"><Image width={400} src={Constant.ImageUrl} rounded /></Col>
-                <Col lg="6">
-                    <div className='about-title'>Tran Quoc Huy </div>
-                    <div className='about-subtitle'>{Constant.Title}</div>
-                    <div className='about-description'>
-                        <ul>
-                            {Constant.Description.map((e,index) => {
-                                return <li key={index}>{e}</li>
-                            })}
-                        </ul>
-                    </div>
-                </Col>
-                <Col lg="1"></Col>
-            </Row>
-        </Container>
+        <div className="big-image">
+            <div className="overlay">
+                <Container>
+                    <Row>
+                        <Col lg="1"></Col>
+                        <Col lg="4"><Image width={400} src={Constant.ImageUrl} rounded /></Col>
+                        <Col lg="6">
+                            <div className='about-title'>Tran Quoc Huy </div>
+                            <div className='about-subtitle'>{Constant.Title}</div>
+                            <div className='about-description'>
+                                <ul>
+                                    {Constant.Description.map((e, index) => {
+                                        return <li key={index}>{e}</li>
+                                    })}
+                                </ul>
+                            </div>
+                        </Col>
+                        <Col lg="1"></Col>
+                    </Row>
+                </Container>
+            </div>
+        </div>
     )
 }
 
