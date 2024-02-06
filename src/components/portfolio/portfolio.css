@@ -18,10 +18,6 @@
     cursor: pointer;
 }
 
-.portfolio-category:hover{
-    color: #02D7E5;
-}
-
 .portfolio-view-all {
     text-align: center;
 }

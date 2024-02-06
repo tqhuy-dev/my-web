@@ -15,8 +15,8 @@ function AboutMe() {
                     <div className='about-subtitle'>{Constant.Title}</div>
                     <div className='about-description'>
                         <ul>
-                            {Constant.Description.map((e) => {
-                                return <li>{e}</li>
+                            {Constant.Description.map((e,index) => {
+                                return <li key={index}>{e}</li>
                             })}
                         </ul>
                     </div>

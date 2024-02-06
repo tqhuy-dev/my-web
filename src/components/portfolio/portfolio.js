@@ -8,8 +8,9 @@ import React from 'react';
 function Portfolio() {
 
     let [listPortfolioCards, setStateList] = React.useState(Constants.Portfolio.WebApp.map((e, index) => {
-        return <CardPortfolio image={e.image} title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
+        return <CardPortfolio key={index} image={e.image} title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
     }));
+    let [tabSelected,setTab] = React.useState(0);
     const updateCategory = (index) => {
         let listCate = Constants.Portfolio.WebApp
         switch (index) {
@@ -31,6 +32,7 @@ function Portfolio() {
         setStateList(listCate.map((e, index) => {
             return <CardPortfolio image={e.image} title={e.title} description={e.description} direction={index % 2 === 0 ? "right" : "left"} />
         }))
+        setTab(index);
     }
     return (
         <div>
@@ -40,16 +42,16 @@ function Portfolio() {
                     <Row>
                         <Col lg="1"></Col>
                         <Col>
-                            <div className='portfolio-category' onClick={() => updateCategory(0)}>Web App</div>
+                            <div className='portfolio-category' style={tabSelected === 0 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(0)}>Web App</div>
                         </Col>
                         <Col>
-                            <div className='portfolio-category' onClick={() => updateCategory(1)}>AI</div>
+                            <div className='portfolio-category' style={tabSelected === 1 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(1)}>AI</div>
                         </Col>
                         <Col>
-                            <div className='portfolio-category' onClick={() => updateCategory(2)}>Devops</div>
+                            <div className='portfolio-category' style={tabSelected === 2 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(2)}>Devops</div>
                         </Col>
                         <Col>
-                            <div className='portfolio-category' onClick={() => updateCategory(3)}>Data Science</div>
+                            <div className='portfolio-category' style={tabSelected === 3 ? {color:"#02D7E5"} : {}} onClick={() => updateCategory(3)}>Data Science</div>
                         </Col>
                         <Col lg="1"></Col>
                     </Row>
