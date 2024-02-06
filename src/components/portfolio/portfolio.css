@@ -1,0 +1,9 @@
+.portfolio-title {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 20px
+}

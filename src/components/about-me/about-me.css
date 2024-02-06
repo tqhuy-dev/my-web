@@ -1,0 +1,16 @@
+.about-title {
+    color: white;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.about-description {
+    text-align: justify;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}

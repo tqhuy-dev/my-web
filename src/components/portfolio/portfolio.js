@@ -1,11 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './portfolio.css'
 function Portfolio() {
     return (
         <div>
             <Container style={{ marginTop: "150px", textAlign: "center" }}>
-                <div style={{ textAlign: 'center', color: 'white', fontSize: 48, fontFamily: 'Inter', fontWeight: '700', wordWrap: 'break-word', marginBottom: "20px" }}>Portfolio</div>
+                <div className='portfolio-title'>Portfolio</div>
                 <Container>
                     <Row>
                         <Col lg="1"></Col>
