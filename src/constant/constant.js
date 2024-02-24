@@ -12,7 +12,7 @@ const Constant = {
         "Master of information technology at FPT University",
         "Senior Back-end Developer with nearly 5 years of experience in developing and building back-end applications using Golang, NodeJS and Python. Design and build large-scale systems and microservices architecture",
         "Back-end Engineer for large-scale systems at large technology companies Sendo, GiaoHangNhanh",
-        "Devops Engineer with nearly 2 years , have certificates of AWS Developer Associate DVA-C02 and AWS Devops Professional DOP-C02",
+        "Devops Engineer with nearly 2 years , currently taking 2 courses of AWS Developer Associate DVA-C02 and AWS Devops Professional DOP-C02",
         "AI Engineer with 1 and a half years , have basic knowledge about training deep learning models and NLP based on Neural Network and its variations. Have deep learning certifications on coursera",
     ],
     ImageUrl: "/image_me.png",
