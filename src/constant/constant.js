@@ -9,10 +9,10 @@ export class PortfolioEntity {
 const Constant = {
     Title: "Senior Back-end Developer",
     Description: [
-        "Master of information technology at FPT University",
-        "Senior Back-end Developer with nearly 5 years of experience in developing and building back-end applications using Golang, NodeJS and Python. Design and build large-scale systems and microservices architecture",
-        "Back-end Engineer for large-scale systems at large technology companies Sendo, GiaoHangNhanh",
-        "Devops Engineer with nearly 2 years , currently taking 2 courses of AWS Developer Associate DVA-C02 and AWS Devops Professional DOP-C02",
+        "Master of software engineer (MSE) at FPT University",
+        "Senior Back-end Developer with nearly 5 years of experience developing and building back-end applications using Golang at many large technology companies (Sendo, GiaoHangNhanh). A good coder in some famous language (Java, NodeJS, Python, C#),",
+        "Experienced in designing and developing high performance large-scale web services handling thousands of requests, domain-driven architecture, event-driven architecture, and microservice architecture",
+        "Have basic knowledge of devops with nearly 2 years of experience supporting CI/CD deployment of microservice systems on AWS, GCP, currently taking 2 courses of AWS Developer Associate DVA-C02 and AWS Devops Professional DOP-C02",
         "AI Engineer with 1 and a half years , have basic knowledge about training deep learning models and NLP based on Neural Network and its variations. Have deep learning certifications on coursera",
     ],
     ImageUrl: "/image_me.png",
