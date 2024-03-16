@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc6d30e9.css",
+    "main.js": "/static/js/main.c255259f.js",
+    "static/js/592.847afb62.chunk.js": "/static/js/592.847afb62.chunk.js",
+    "static/media/white-blue-technology-background-vector-20643924.jpg": "/static/media/white-blue-technology-background-vector-20643924.ee711cf47d6811ab9234.jpg",
+    "static/media/jpg": "/static/media/34b84e428dd040619396.5c29fdba6138f2f42932.jpg",
+    "index.html": "/index.html",
+    "main.cc6d30e9.css.map": "/static/css/main.cc6d30e9.css.map",
+    "main.c255259f.js.map": "/static/js/main.c255259f.js.map",
+    "592.847afb62.chunk.js.map": "/static/js/592.847afb62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc6d30e9.css",
+    "static/js/main.c255259f.js"
+  ]
+}
