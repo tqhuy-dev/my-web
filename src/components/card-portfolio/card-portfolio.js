@@ -49,8 +49,8 @@ function Detail(props) {
     return (
         <span>
             <span>
-                <div style={{ color: '#02D7E5', fontSize: 48, fontFamily: 'Inter', fontWeight: '700', wordWrap: 'break-word' }}>{props.title}</div>
-                <div style={{ color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '700', wordWrap: 'break-word' }}>{props.description}</div>
+                <div style={{ color: 'rgb(74, 74, 255)', fontSize: 48, fontWeight: '700', wordWrap: 'break-word' }}>{props.title}</div>
+                <div style={{ color: 'rgb(74, 74, 255)', fontSize: 24, fontWeight: '700', wordWrap: 'break-word' }}>{props.description}</div>
             </span>
             {/* <div style={{ color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '700', wordWrap: 'break-word' }}> Show more</div> */}
         </span>

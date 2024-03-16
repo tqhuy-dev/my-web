@@ -4,7 +4,7 @@ function CardExperience(props) {
     return (
         <div>
             <Container>
-                <Row><Image  height={200} src={props.src} rounded alt='none'/></Row>
+                <Row><Image src={props.src} rounded alt='none'/></Row>
                 <Row><div style={{textAlign:"center",color:"white",marginTop:10,fontWeight:'bold',fontSize:20}}>{props.name}</div></Row>
             </Container>
         </div>

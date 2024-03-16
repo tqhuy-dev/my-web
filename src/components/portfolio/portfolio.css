@@ -1,8 +1,7 @@
 .portfolio-title {
     text-align: center;
-    color: white;
+    color: rgb(74, 74, 255);
     font-size: 48px;
-    font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
     margin-bottom: 20px
@@ -10,9 +9,8 @@
 
 .portfolio-category {
     text-align: center;
-    color: white;
+    color: rgb(74, 74, 255);
     font-size: 24px;
-    font-family: Inter;
     font-weight: 700;
     word-wrap: 'break-word';
     cursor: pointer;
@@ -24,21 +22,36 @@
 
 .portfolio-button-view-all {
     display: inline;
-    background: linear-gradient(180deg, #5158F7 0%, #3CB1F3 100%);
+    background: white;
     cursor: pointer;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5%;
-    color: white;
+    color: rgb(74, 74, 255);
     font-weight: bold;
 }
 
 
 .big-image-portfolio {
-    padding-top: 20px;
-    padding-bottom: 100px;
+    height: 150vh;
+    width: 100vw;
+    background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(23, 23, 23, 0.5) ),url("../../../public/theme_2.avif");
+    background-position: 50% 50%;
+    background-image: url("../../../public/34b84e428dd040619396.jpg");
+}
+
+.overlay-portfolio {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

@@ -7,14 +7,14 @@ export class PortfolioEntity {
 }
 
 const Constant = {
-    Title: "Senior Back-end Developer",
-    Description: [
-        "Master of software engineer (MSE) at FPT University",
+    Title: "Master of Software Engineer, Senior Back-end Developer, AI Engineer",
+    AboutMe: [
         "Senior Back-end Developer with nearly 5 years of experience developing and building back-end applications using Golang at many large technology companies (Sendo, GiaoHangNhanh). A good coder in some famous language (Java, NodeJS, Python, C#),",
         "Experienced in designing and developing high performance large-scale web services handling thousands of requests, domain-driven architecture, event-driven architecture, and microservice architecture",
         "Have basic knowledge of devops with nearly 2 years of experience supporting CI/CD deployment of microservice systems on AWS, GCP, currently taking 2 courses of AWS Developer Associate DVA-C02 and AWS Devops Professional DOP-C02",
         "AI Engineer with 1 and a half years , have basic knowledge about training deep learning models and NLP based on Neural Network and its variations. Have deep learning certifications on coursera",
     ],
+
     ImageUrl: "/image_me.png",
     Portfolio: {
         WebApp: [
@@ -36,7 +36,7 @@ const Constant = {
     Services: {
         WebServer:{
             Title: "Backend Server",
-            Description:"Have nearly 5 years of experience building and deploying back-end applications and APIs in 3 languages Golang, NodeJS and Python. Good understanding of microservices model and large-scale system."
+            Description:"Senior Back-end Developer with nearly 5 years of experience developing and building back-end applications using Golang at many large technology companies (Sendo, GiaoHangNhanh). A good coder in some famous language (Java, NodeJS, Python, C#)."
         },
         AI:{
             Title: "Artificial Intelligence",
@@ -44,10 +44,10 @@ const Constant = {
         },
         Devops:{
             Title: "Devops",
-            Description:"Have general knowledge about devops and deploying applications to the cloud such as AWS and GCP. Integrate CI/CD pipeline for automated and continuous application deployment. Certified in AWS Develop Associate DVA-C02."
+            Description:"Have basic knowledge of devops with nearly 2 years of experience supporting CI/CD deployment of microservice systems on AWS, GCP and currently taking 2 courses of AWS Developer Associate DVA-C02 and AWS Devops Professional DOP-C02"
         },
         Data:{
-            Title: "Data Science",
+            Title: "Data Engineer",
             Description:"Research, explore and visualize data, apply machine learning techniques to train machine learning models and build recommendation systems"
         }
     },

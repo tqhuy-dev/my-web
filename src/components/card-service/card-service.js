@@ -8,15 +8,15 @@ function CardService(props) {
     const getIcon = (icon) => {
         switch (icon) {
             case "server":
-                return <FaServer  size={40} color='#3CB1F3' />
+                return <FaServer  size={40} color='white' />
             case "devops":
-                return <FaDocker  size={40} color='#3CB1F3' />
+                return <FaDocker  size={40} color='white' />
             case "ai":
-                return <LuBrainCircuit size={40} color='#3CB1F3' />
+                return <LuBrainCircuit size={40} color='white' />
             case "data":
-                return <MdAnalytics size={40} color='#3CB1F3' />
+                return <MdAnalytics size={40} color='white' />
             default:
-                return <FaServer size={40} color='#3CB1F3' />
+                return <FaServer size={40} color='white' />
         }
     }
     const icon = getIcon(props.icon)

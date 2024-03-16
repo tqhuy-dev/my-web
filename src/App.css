@@ -16,5 +16,5 @@
   justify-content: flex-end;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: linear-gradient(180deg, #000228 0%, #040405 100%)
+  background: linear-gradient(180deg, rgb(74, 74, 255) 0%, rgb(74, 74, 255) 100%)
 }
