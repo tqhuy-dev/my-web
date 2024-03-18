@@ -40,7 +40,7 @@ const Constant = {
         },
         AI:{
             Title: "Artificial Intelligence",
-            Description:"Research and Train Artificial Intelligent models about object detection, image classification, and predition by  neural network and some different variant likes CNN, RNN, YOLO. Have general knowledge about some AI libraries or tools likes MediaPipe, Roboflow."
+            Description:"Research and Train Artificial Intelligent models about regression, object detection, image classification,... and predition by  neural network and some different variant likes CNN, RNN, YOLO. Have general knowledge about some AI libraries or tools likes MediaPipe, Tensorflow, Roboflow."
         },
         Devops:{
             Title: "Devops",
